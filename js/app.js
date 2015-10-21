@@ -1,7 +1,6 @@
 //Array of Objects
-
-// NOT ALL STATES ACCOUNTED FOR! 
 var states = [
+    // NOT ALL STATES ACCOUNTED FOR! 
     {
        state_id: "ny",
        state_name: "New York",
