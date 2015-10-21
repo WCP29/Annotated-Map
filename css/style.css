@@ -1,0 +1,31 @@
+body html {
+    height: 100%;
+}
+.map-test svg {
+    height: auto;
+    width: 700px;
+}
+
+.map-test g {
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 1;
+}
+
+.map-test g:hover {
+  fill: green !important;
+  cursor: help;
+}
+
+.info {
+  background-color: rgba(255,255,255, .7);
+  padding: .3em;
+  font-size: .8em;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+}
+
+.info::first-line {
+   font-weight: bold;   
+}
+
