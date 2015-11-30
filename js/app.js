@@ -91,12 +91,3 @@ function annotation() {
     });
     });
 }
-// Click to change information about states.
-function changeInfo() {
-    $('.map-test g').on('click', function() {
-        var changeAccessibility = prompt('What are the Accessabilities here?');
-        var state_data = $(this).data('state');
-        state_data.Accessibility = changeAccessibility;
-        labelStates();
-    })
-}
